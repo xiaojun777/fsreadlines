@@ -1,6 +1,6 @@
 {
   "name": "fsreadlines",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "read some lines from file.",
   "main": "src/fsreadlines.js",
   "scripts": {
