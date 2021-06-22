@@ -1,6 +1,6 @@
 {
   "name": "fsreadlines",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "read some lines from file.",
   "main": "src/fsreadlines.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "https://github.com/xiaojun777/fsreadlines.git"
   },
   "homepage": "https://github.com/xiaojun777/fsreadlines",
-  "bugs": "https://github.com/xiaojun777/fsreadlines/issues",  
+  "bugs": "https://github.com/xiaojun777/fsreadlines/issues",
   "files": [
     "lib"
   ],
