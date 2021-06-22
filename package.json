@@ -2,18 +2,33 @@
   "name": "fsreadlines",
   "version": "1.0.0",
   "description": "read some lines from file.",
-  "main": "fsreadlines.js",
+  "main": "src/fsreadlines.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js",
+    "build": "mkdirp lib && babel src/fsreadlines.js > lib/fsreadlines.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaojun777/fsreadlines.git"
+  },
+  "homepage": "https://github.com/xiaojun777/fsreadlines",
+  "bugs": "https://github.com/xiaojun777/fsreadlines/issues",  
+  "files": [
+    "lib"
+  ],
   "keywords": [
-    "",
+    "read",
     "lines",
-    "encoding"
+    "encoding",
+    "file"
   ],
   "author": "huanghj",
   "license": "MIT",
   "dependencies": {
     "line-by-line": "^0.1.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "mkdirp": "^1.0.4"
   }
 }
