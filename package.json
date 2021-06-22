@@ -2,7 +2,7 @@
   "name": "fsreadlines",
   "version": "1.0.4",
   "description": "read some lines from file.",
-  "main": "src/fsreadlines.js",
+  "main": "lib/fsreadlines.js",
   "scripts": {
     "test": "node test/test.js",
     "build": "mkdirp lib && babel src/fsreadlines.js > lib/fsreadlines.js"
