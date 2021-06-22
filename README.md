@@ -1,0 +1,1 @@
+based on line-by-line, and add function readlines, can read some lines. 
